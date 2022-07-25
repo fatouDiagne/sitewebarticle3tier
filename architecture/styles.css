@@ -1,0 +1,93 @@
+.bg-light {
+    background-color: ##bdc3c7 !important;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 30%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0d6efd;
+}
+.navbar-light .navbar-nav .nav-link:hover,.nav-link:focus {
+    color: #0d6efd;
+    border-bottom: 2px solid white ;
+    padding-bottom: 1px;
+}
+.border-success {
+    border-color: #0d6efd!important;
+}
+.btn-success {
+    color: #f1c40f;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+.body{
+  
+
+    font-family: 'Roboto', sans-serif;
+}
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgb(255,255,255,0.6),transparent), url("https://static.vecteezy.com/ti/photos-gratuite/p1/1986798-concept-de-laboratoire-scientifique-gratuit-photo.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color:#130f40 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #hero .btn-watch-video i {
+  color: #106eea;
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+#hero .btn-watch-video:hover {
+  color: #106eea;
+}
+
+#hero .btn-watch-video:hover i {
+  color: #3b8af2;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero .btn-get-started, #hero .btn-watch-video {
+    font-size: 13px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+{
+  margin: 0px;
+  padding: 0px;
+  front-family: 'Ubuntu',sans-serif;
+
+}
+#services{
+  background-color: #dbe5e6;
+  padding: 30px 0px;
+}
